@@ -117,7 +117,7 @@ int main() {
 
    pc.baud(115200);
 
-    led1=0;
+    led1=1;
     led2 = 1;
 
     thred.start(callback(&queue, &EventQueue::dispatch_forever));
